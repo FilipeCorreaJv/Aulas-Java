@@ -17,3 +17,37 @@ public class Aula1 {
 	}
 
 }
+
+-------------------------------------------------------------------
+
+package meupacote;
+
+public class Cliente {
+	public String nome;
+	public int idade;
+	
+	public Cliente(String nomeCliente, int idadeCliente){
+		nome = nomeCliente;
+		idade = idadeCliente;
+	}
+	
+	public String exibirDados(){
+		return "Nome: " + nome + " - Idade:" + idade;
+	}
+	
+	public Produto produtoComprado() {
+		Produto p = new Produto();
+		return p;
+	}
+}
+
+------------------------------------------------------------------
+
+package meupacote;
+
+public class Produto {
+	public String nome = "TV";
+	public double preco = 450.90;
+	
+
+}
