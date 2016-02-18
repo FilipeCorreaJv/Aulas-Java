@@ -1,1 +1,19 @@
+import meupacote.*;
 
+public class Aula1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello World!");
+		
+		Cliente c1 = new Cliente("Felipe", 23);
+		Cliente c2 = new Cliente("Deyvson", 25);
+		Cliente c3 = new Cliente("Maria", 22);
+		
+		System.out.println("Produto: " + c1.produtoComprado().nome + " - Valor: " + c1.produtoComprado().preco);
+		System.out.println(c2.exibirDados());
+		System.out.println(c3.exibirDados());
+		
+	}
+
+}
